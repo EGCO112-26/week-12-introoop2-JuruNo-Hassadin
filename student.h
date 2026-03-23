@@ -12,8 +12,9 @@ public:
     void set_age(int a) { age = a; }
     int get_age() { return age; }
     
-    
+    // แก้ไขให้แสดงผลแยกบรรทัดตามที่ระบบต้องการ
     void display() {
-        cout << "Name: " << name << ", Age: " << age << endl;
+        cout << "Name: " << name << endl;
+        cout << "Age: " << age << endl;
     }
 };
